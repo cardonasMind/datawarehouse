@@ -1,0 +1,176 @@
+/*			GLOBAL SETTINGS			*/
+
+* {
+	font-family: 'Andika New Basic', sans-serif;
+	font-size: 16px;
+	color: var(--gray);
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+	background: linear-gradient(180deg, #F6FAFD, white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, sans-serif;
+	color: var(--dark-purple);
+}
+
+ /*h1 {
+	font-size: 2rem;
+	line-height: 2rem;
+ }
+
+h2 {
+	font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 1.4rem;
+}*/
+
+p, b {
+	line-height: 160%;
+}
+
+.wrapper {
+	margin-right: 15rem;
+	margin-left: 15rem;
+}
+
+:root {
+	--gray: #4B5D68;
+	--purple: #9C69E2;
+	--dark-purple: #212353;
+	--candy: #F063B8;
+	--aqua: #68C9B;
+}
+
+
+
+/*		Button		*/
+.button {
+	padding: 1rem 2.3rem;
+	border-radius: 3rem;
+	width: fit-content;
+	line-height: 160%;
+}
+
+
+.button.button_special {
+	background: white;
+	box-shadow: 0 5px 5px rgba(75, 93, 104, .1);
+}
+
+
+.button_grid {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	grid-gap: 1rem;
+	align-items: center;
+	width: fit-content;
+}
+
+
+.button.button_color_candy {
+	background: var(--candy);
+	color: white;
+}
+
+.button.button_color_purple {
+	background: var(--purple);
+	color: white;
+}
+
+
+
+/*		Header		*/
+header {
+	margin-top: 3.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .header__main {
+	display: flex;
+	align-items: center;
+}
+
+header .header__main .header__main-menu {
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 2.5rem;
+	margin-left: 7.5rem;
+}
+
+
+
+/*		Hero		*/
+.hero {
+	position: relative;
+	margin-top: 9rem;
+}
+
+.hero .hero__content {
+	display: grid;
+	grid-gap: 3rem;
+	width: 70%;
+}
+
+.hero .hero__content h1 {
+	font-size: 5rem;
+	line-height: 110%;
+}
+
+.hero .hero__content .hero__content-text {
+	width: 50%;
+}
+
+.hero .hero__image {
+	width: 70%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transform: translateY(4rem);
+}
+
+
+
+/*		About us		*/
+.about-us {
+	background: rgba(240, 99, 184, .15);
+	border-radius: 50px;
+	border-radius: 3rem;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-gap: 3.8rem;
+	align-items: center;
+	padding-right: 5.6rem;
+	margin-top: 12rem;
+}
+
+.about-us .about-us__image {
+	width: 30rem;
+}
+
+.about-us .about-us__content {
+	margin: 7.8rem 0;
+}
+
+.about-us .about-us__content h1 {
+	font-size: 2.5rem;
+	line-height: 130%;
+	margin-bottom: 2.5rem;
+}
+
+.about-us .about-us__content p {
+	text-align: justify;
+}

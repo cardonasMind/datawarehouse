@@ -1,0 +1,8 @@
+{
+	"short_name": "DataWarehouse",
+	"name": "DataWarehouse | A ClickUp mini-project",
+	"description": "ClickUp practice mini-project made by Diego Cardona",
+	"background_color": "#FFFFFF",
+	"display": "standalone",
+	"theme_color": "#FFFFFF",
+}
